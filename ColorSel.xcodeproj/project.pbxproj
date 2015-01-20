@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		3C29D8741A6E0A5E006BC38C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C29D8731A6E0A5E006BC38C /* main.m */; };
 		3C29D8771A6E0A5E006BC38C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C29D8761A6E0A5E006BC38C /* AppDelegate.m */; };
-		3C29D87A1A6E0A5E006BC38C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C29D8791A6E0A5E006BC38C /* ViewController.m */; };
+		3C29D87A1A6E0A5E006BC38C /* ColorSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C29D8791A6E0A5E006BC38C /* ColorSelector.m */; };
 		3C29D87D1A6E0A5E006BC38C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C29D87B1A6E0A5E006BC38C /* Main.storyboard */; };
 		3C29D87F1A6E0A5E006BC38C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C29D87E1A6E0A5E006BC38C /* Images.xcassets */; };
 		3C29D8821A6E0A5E006BC38C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C29D8801A6E0A5E006BC38C /* LaunchScreen.xib */; };
@@ -27,13 +27,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3C29D86E1A6E0A5E006BC38C /* ColorSel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorSel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C29D86E1A6E0A5E006BC38C /* Color Selector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Selector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C29D8721A6E0A5E006BC38C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C29D8731A6E0A5E006BC38C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3C29D8751A6E0A5E006BC38C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3C29D8761A6E0A5E006BC38C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3C29D8781A6E0A5E006BC38C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3C29D8791A6E0A5E006BC38C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C29D8781A6E0A5E006BC38C /* ColorSelector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorSelector.h; sourceTree = "<group>"; };
+		3C29D8791A6E0A5E006BC38C /* ColorSelector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorSelector.m; sourceTree = "<group>"; };
 		3C29D87C1A6E0A5E006BC38C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C29D87E1A6E0A5E006BC38C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3C29D8811A6E0A5E006BC38C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 		3C29D86F1A6E0A5E006BC38C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3C29D86E1A6E0A5E006BC38C /* ColorSel.app */,
+				3C29D86E1A6E0A5E006BC38C /* Color Selector.app */,
 				3C29D8871A6E0A5E006BC38C /* ColorSelTests.xctest */,
 			);
 			name = Products;
@@ -83,8 +83,8 @@
 			children = (
 				3C29D8751A6E0A5E006BC38C /* AppDelegate.h */,
 				3C29D8761A6E0A5E006BC38C /* AppDelegate.m */,
-				3C29D8781A6E0A5E006BC38C /* ViewController.h */,
-				3C29D8791A6E0A5E006BC38C /* ViewController.m */,
+				3C29D8781A6E0A5E006BC38C /* ColorSelector.h */,
+				3C29D8791A6E0A5E006BC38C /* ColorSelector.m */,
 				3C29D87B1A6E0A5E006BC38C /* Main.storyboard */,
 				3C29D87E1A6E0A5E006BC38C /* Images.xcassets */,
 				3C29D8801A6E0A5E006BC38C /* LaunchScreen.xib */,
@@ -136,7 +136,7 @@
 			);
 			name = ColorSel;
 			productName = ColorSel;
-			productReference = 3C29D86E1A6E0A5E006BC38C /* ColorSel.app */;
+			productReference = 3C29D86E1A6E0A5E006BC38C /* Color Selector.app */;
 			productType = "com.apple.product-type.application";
 		};
 		3C29D8861A6E0A5E006BC38C /* ColorSelTests */ = {
@@ -219,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C29D87A1A6E0A5E006BC38C /* ViewController.m in Sources */,
+				3C29D87A1A6E0A5E006BC38C /* ColorSelector.m in Sources */,
 				3C29D8771A6E0A5E006BC38C /* AppDelegate.m in Sources */,
 				3C29D8741A6E0A5E006BC38C /* main.m in Sources */,
 			);
@@ -345,7 +345,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ColorSel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Color Selector";
 			};
 			name = Debug;
 		};
@@ -355,7 +355,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ColorSel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Color Selector";
 			};
 			name = Release;
 		};
