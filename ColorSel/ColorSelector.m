@@ -8,6 +8,8 @@
 
 #import "ColorSelector.h"
 
+NSTimer *myTimer;
+
 @interface ColorSelector ()
 
 @end
@@ -27,6 +29,9 @@
 - (void)UpdateColor{
     self.lblColor.backgroundColor = [UIColor colorWithRed:self.sldRed.value/255 green:self.sldGreen.value/255 blue:self.sldBlue.value/255 alpha:1];
 }
+- (void)Blink{
+    self.lblColor.alpha = self.lblColor.alpha ? 0 : 1;
+}
 
 - (IBAction)sldRedChanged:(id)sender {
     self.txtRed.text = [NSString stringWithFormat:@"%.f", self.sldRed.value];
@@ -44,5 +49,13 @@
 }
 
 - (IBAction)sldBlinkChanged:(id)sender {
+    self.sldBlink.value = round(self.sldBlink.value);
+    self.txtBlink.text = [NSString stringWithFormat:@"%.f", self.sldBlink.value];
+    [myTimer invalidate];
+    if (self.sldBlink.value){
+        myTimer = [NSTimer scheduledTimerWithTimeInterval:(0.5/self.sldBlink.value) target:self selector:@selector(Blink) userInfo:nil repeats:YES];
+        
+    }
+        
 }
 @end

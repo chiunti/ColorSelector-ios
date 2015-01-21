@@ -58,45 +58,45 @@
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Red" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8YX-Fw-BgQ" userLabel="lblRed">
-                                <rect key="frame" x="44" y="310" width="232" height="21"/>
+                                <rect key="frame" x="44" y="306" width="232" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Green" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SA5-5E-HWJ" userLabel="lblGreen">
-                                <rect key="frame" x="44" y="375" width="232" height="21"/>
+                                <rect key="frame" x="44" y="371" width="232" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Blue" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zRh-Lb-JcJ" userLabel="lblBlue">
-                                <rect key="frame" x="44" y="445" width="232" height="21"/>
+                                <rect key="frame" x="44" y="441" width="232" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Blink" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rKi-qv-ZxV" userLabel="lblBlink">
-                                <rect key="frame" x="44" y="510" width="232" height="21"/>
+                                <rect key="frame" x="44" y="506" width="232" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MEv-eQ-dls" userLabel="txtRed">
-                                <rect key="frame" x="237" y="301" width="39" height="30"/>
+                                <rect key="frame" x="237" y="297" width="39" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="p9B-wU-ci0" userLabel="txtGreen">
-                                <rect key="frame" x="237" y="366" width="39" height="30"/>
+                                <rect key="frame" x="237" y="362" width="39" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="miS-rg-4dE" userLabel="txtBlue">
-                                <rect key="frame" x="237" y="436" width="39" height="30"/>
+                                <rect key="frame" x="237" y="432" width="39" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="z76-CV-98g" userLabel="txtBlink">
-                                <rect key="frame" x="237" y="501" width="39" height="30"/>
+                                <rect key="frame" x="237" y="497" width="39" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -106,7 +106,7 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="lblColor" destination="uep-9y-xdd" id="Ps7-eF-e9e"/>
-                        <outlet property="sldBlink" destination="CKa-hU-mZf" id="8oR-qB-0gy"/>
+                        <outlet property="sldBlink" destination="CKa-hU-mZf" id="wfm-4P-PdJ"/>
                         <outlet property="sldBlue" destination="eVG-5R-nVR" id="DLV-ij-aLF"/>
                         <outlet property="sldGreen" destination="2Tj-lD-nWY" id="Rx5-UB-LE8"/>
                         <outlet property="sldRed" destination="6vL-Gy-s1G" id="ch6-Jd-GNy"/>
