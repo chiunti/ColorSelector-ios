@@ -51,9 +51,10 @@ NSTimer *myTimer;
 - (IBAction)sldBlinkChanged:(id)sender {
     self.sldBlink.value = round(self.sldBlink.value);
     self.txtBlink.text = [NSString stringWithFormat:@"%.f", self.sldBlink.value];
+    self.lblColor.alpha = 1;
     [myTimer invalidate];
     if (self.sldBlink.value){
-        myTimer = [NSTimer scheduledTimerWithTimeInterval:(0.5/self.sldBlink.value) target:self selector:@selector(Blink) userInfo:nil repeats:YES];
+        myTimer = [NSTimer scheduledTimerWithTimeInterval:/*(0.5/*/(self.sldBlink.value) target:self selector:@selector(Blink) userInfo:nil repeats:YES];
         
     }
         
